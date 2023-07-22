@@ -2,7 +2,7 @@
 
 set -e
 
-apt_packages="zsh"
+apt_packages="zsh neofetch"
 
 echo "👩‍💻 Installing Zsh..."
 
