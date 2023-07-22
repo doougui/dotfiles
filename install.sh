@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-set -e -x
-
-if ((EUID != 0)); then
-  echo >&2 "❌ Script not running as root or with sudo! Exiting..."
-  exit 1
-fi
+set -e
 
 apt_packages="curl"
 
