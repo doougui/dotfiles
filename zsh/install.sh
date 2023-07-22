@@ -20,13 +20,12 @@ echo "🎭 Installing spaceship Zsh theme..."
 
 zsh_path="${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"
 
-echo "zsh_path: ${zsh_path}"
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "${zsh_path}/themes/spaceship-prompt" --depth=1
 ln -s "${zsh_path}/themes/spaceship-prompt/spaceship.zsh-theme" "${zsh_path}/themes/spaceship.zsh-theme"
 
 echo "🔤 Installing zsh-autosuggestions..."
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ${zsh_path}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions "${zsh_path}/plugins/zsh-autosuggestions"
 
 echo "🔧 Configuring Zsh..."
 
@@ -56,8 +55,6 @@ link_dotfiles
 echo "🖥️ Set Zsh as default shell!"
 
 chsh -s $(which zsh)
-
-source ~/.zshrc
 
 echo "👩‍💻 End of Zsh installation!"
 
