@@ -2,10 +2,9 @@
 
 set -e
 
-apt_packages="curl"
+apt_packages="wget curl"
 
 function apt_install_base_packages {
-  # shellcheck disable=SC2086
   sudo apt-get update && sudo apt-get install -y ${apt_packages}
 }
 
