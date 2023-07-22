@@ -39,7 +39,10 @@ if [ -f "${HOME}/.zsh_history" ]; then
   mv ${HOME}/.zsh_history ${HOME}/.zsh_history.bkp
 fi
 
-files_to_link=(".zshrc", ".zsh_history")
+files_to_link=(
+  ".zshrc"
+  ".zsh_history"
+)
 
 function link_dotfiles {
   for file in ${files_to_link[@]}; do
