@@ -29,12 +29,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${zsh_path}/plugins/z
 
 echo "🔧 Configuring Zsh..."
 
-if [ -f ${HOME}/.zshrc ]; then
+if [ -f "${HOME}/.zshrc" ]; then
   echo "📁 .zshrc file already exists. Creating a backup..."
   mv ${HOME}/.zshrc ${HOME}/.zshrc.bkp
 fi
 
-if [ -f ${HOME}/.zsh_history ]; then
+if [ -f "${HOME}/.zsh_history" ]; then
   echo "📁 .zsh_history file already exists. Creating a backup..."
   mv ${HOME}/.zsh_history ${HOME}/.zsh_history.bkp
 fi
