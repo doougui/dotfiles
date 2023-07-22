@@ -10,3 +10,5 @@ function apt_install_base_packages {
 }
 
 apt_install_base_packages
+
+exit 0

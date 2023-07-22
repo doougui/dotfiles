@@ -12,7 +12,7 @@ function apt_install_packages {
 
 apt_install_packages
 
-echo "🌱 Configuring Git..."
+echo "🔧 Configuring Git..."
 
 files_to_link=(".gitconfig")
 
@@ -23,3 +23,7 @@ function link_dotfiles {
 }
 
 link_dotfiles
+
+echo "🌱 End of Git installation!"
+
+exit 0
