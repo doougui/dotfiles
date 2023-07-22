@@ -30,5 +30,3 @@ done
 
 echo "✅ VSCode has settings sync, so you don't need to install anything else."
 echo "📝 End of VSCode installation!"
-
-exit 0

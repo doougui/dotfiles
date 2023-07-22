@@ -59,5 +59,3 @@ echo "🖥️ Set Zsh as default shell!"
 chsh -s $(which zsh)
 
 echo "👩‍💻 End of Zsh installation!"
-
-exit 0

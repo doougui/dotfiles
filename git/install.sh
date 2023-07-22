@@ -30,5 +30,3 @@ function link_dotfiles {
 link_dotfiles
 
 echo "🌱 End of Git installation!"
-
-exit 0
