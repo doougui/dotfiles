@@ -10,4 +10,8 @@ function apt_install_base_packages {
 
 apt_install_base_packages
 
+source ./git/install.sh
+source ./zsh/install.sh
+source ./vscode/install.sh
+
 exit 0
