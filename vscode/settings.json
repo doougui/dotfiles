@@ -82,7 +82,7 @@
     "http": "container",
     "providers": "include",
     "factories": "class",
-    "repositories": "mappings",
+    "repositories": "mappings"
   },
   "editor.lightbulb.enabled": true,
   "tabnine.experimentalAutoImports": true,
@@ -98,5 +98,5 @@
     "ts(2339)"
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1
 }
