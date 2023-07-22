@@ -106,7 +106,11 @@ source $ZSH/oh-my-zsh.sh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
 export NVM_DIR=~/.nvm
-source ~/.nvm/nvm.sh
+
+if [ -f "${NVM_DIR}" ]; then
+  source ${NVM_DIR}/nvm.sh
+fi
+
 alias c="clear"
 alias ptest="vendor/bin/phpunit"
 alias tk="php artisan tinker"
