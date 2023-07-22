@@ -18,9 +18,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 echo "🎭 Installing spaceship Zsh theme..."
 
-zsh_path="${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"
+zsh_path=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}
 
-git clone https://github.com/spaceship-prompt/spaceship-prompt.git "${zsh_path}/themes/spaceship-prompt" --depth=1
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git --depth=1
+mv spaceship-prompt "${zsh_path}/themes"
+
 ln -s "${zsh_path}/themes/spaceship-prompt/spaceship.zsh-theme" "${zsh_path}/themes/spaceship.zsh-theme"
 
 echo "🔤 Installing zsh-autosuggestions..."
