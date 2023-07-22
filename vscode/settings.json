@@ -1,0 +1,102 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.fontLigatures": true,
+  // "editor.fontFamily": "Monocraft, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "eslint.packageManager": "npm",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "breadcrumbs.enabled": true,
+  "editor.suggestSelection": "first",
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "explorer.openEditors.visible": 0,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "OM Theme (No Italic)",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.ignoreMissingGitWarning": true,
+  "explorer.compactFolders": false,
+  "editor.inlineSuggest.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings",
+  },
+  "editor.lightbulb.enabled": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.stickyScroll.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": false,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "editor.inlayHints.padding": true,
+  "typescript.inlayHints.parameterNames.enabled": "none",
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "errorLens.excludeBySource": [
+    "ts-styled-plugin(9999)",
+    "ts(2339)"
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+}

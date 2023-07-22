@@ -1,0 +1,20 @@
+[user]
+	name = Douglas Pinheiro Goulart
+	email = douglaspigoulart@gmail.com
+[core]
+	editor = vim
+[alias]
+	s = status
+	ss = status -s
+	pd = push origin develop
+	pm = push origin main
+	pmt = push origin main --tags
+	cd = checkout develop
+	cm = checkout main
+	md = merge develop
+	mm = merge main
+	l = !git log --pretty=format:'%C(yellow)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+	amend = !git add --all && git commit --amend --no-edit
+	c = !git add --all && git commit -m
+[init]
+	defaultBranch = main
