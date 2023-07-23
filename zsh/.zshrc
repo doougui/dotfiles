@@ -107,7 +107,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
 export NVM_DIR=~/.nvm
 
-if [ -f "${NVM_DIR}" ]; then
+if [ -f ${NVM_DIR}/nvm.sh ]; then
   source ${NVM_DIR}/nvm.sh
 fi
 
